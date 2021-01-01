@@ -57,15 +57,63 @@ header nav .nav-right-section img{
 }
 
 main {
-    margin-top: 150px;
+    margin-top: 60px;
     text-align: center;
 }
 main .main-logo {
     width: 272px;
     height: 92px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
 }
 main .main-logo img {
     width: 100%;
+}
+
+main .main-input {
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input .main-input-container {
+    width: 475px;
+    border-radius: 100px;
+    /* border: 1px solid #dfe1e5; */
+    border: 1px solid #201e1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input .main-input-container input {
+    width: 375px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+main .main-input .main-input-container input[type="text"i] {
+    padding: 1px 15px;
+}
+main .main-input .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #DFDEDBB8;
+    border-color: #201E1AFF;
+}
+main .main-input .main-input-container .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(60deg) brightness(103%) contrast(101%);
+}
+main .main-input .main-input-container .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
 }
